@@ -1,3 +1,13 @@
+"""
+concat.py - Concatenate multiple videos to a single video
+
+usage:
+    python concat.py clips_folder output_folder
+    
+    clips_folder: The folder with short clips
+    output_folder: The new folder where concatenated files will be stored
+
+"""
 from random import shuffle
 from pathlib import Path
 from pprint import pprint
