@@ -8,7 +8,7 @@ import os
 input_dir = sys.argv[1]
 output_dir = sys.argv[2]
 # The number of files to be combined 10 means 10 files will become 1.
-combine_number = 10
+combine_number = 20
 
 files = list(Path(input_dir).glob('*.mp4'))
 shuffle(files)
