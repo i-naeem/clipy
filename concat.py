@@ -15,7 +15,6 @@ example:
 """
 from random import shuffle
 from pathlib import Path
-from pprint import pprint
 import subprocess
 import sys
 import os
