@@ -8,6 +8,7 @@ usage:
     
 example:
     python segmify.py video.mp4 10
+    
     This will create a folder called video where 10 seconds parts of video will be stored.
 """
 import subprocess

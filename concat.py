@@ -9,6 +9,7 @@ usage:
 
 example:
     python concat.py videos merged_videos
+    
     This will take every random 20 files from the videos dir and merge those 20 and save it to merged_videos dir.
     
 """
