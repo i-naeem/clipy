@@ -2,11 +2,15 @@
 concat.py - Concatenate multiple videos to a single video
 
 usage:
-    python concat.py clips_folder output_folder
+    python concat.py clips_dir output_dir
     
-    clips_folder: The folder with short clips
-    output_folder: The new folder where concatenated files will be stored
+    clips_dir: The dir with short clips
+    output_dir: The new dir where concatenated files will be stored
 
+example:
+    python concat.py videos merged_videos
+    This will take every random 20 files from the videos dir and merge those 20 and save it to merged_videos dir.
+    
 """
 from random import shuffle
 from pathlib import Path
