@@ -1,3 +1,15 @@
+"""
+segmify.py - Create equal segments of a video
+usage:
+    python segmify.py filename seconds
+    
+    filename: The large video file 
+    seconds: The number of seconds on which it will be segmify 
+    
+example:
+    python segmify.py video.mp4 10
+    This will create a folder called video where 10 seconds parts of video will be stored.
+"""
 import subprocess
 import sys
 import os
